@@ -83,6 +83,12 @@
     	    <artifactId>h2</artifactId>
     	    <scope>runtime</scope>
 	</dependency>
+<!-- SpringDoc OpenAPI (Swagger UI + OpenAPI 3) – la plus moderne et propre -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.6.0</version>   <!-- toujours à jour en 2025 -->
+        </dependency>
     </dependencies>
 
     <build>
